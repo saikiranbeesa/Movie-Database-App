@@ -1,0 +1,94 @@
+.movie-details-container {
+  padding: 24px;
+  background-color: #121212;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.movie-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 32px;
+}
+
+.star-icon {
+  color: #fbbf24;
+  font-size: 18px;
+}
+
+.movie-image {
+  width: 300px;
+  border-radius: 8px;
+}
+
+.movie-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.movie-text h2 {
+  font-size: 28px;
+  margin-bottom: 12px;
+  color: #ffffff;
+}
+
+.movie-text p {
+  margin: 6px 0;
+  line-height: 1.4;
+}
+
+/* Cast Section */
+.cast-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 16px;
+}
+
+.cast-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1f1f1f;
+  padding: 8px;
+  border-radius: 8px;
+}
+
+.cast-img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+.cast-name {
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.cast-character {
+  text-align: center;
+  font-size: 14px;
+  color: #d1d1d1;
+}
+
+/* Loader & Error */
+.loader-container,
+.error-view {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+}
+
+.error-view button {
+  padding: 8px 16px;
+  margin-top: 12px;
+  background-color: #d63333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
